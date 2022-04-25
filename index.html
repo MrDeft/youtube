@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>YouTube</title>
+</head>
+
+<body>
+    <div id="main">
+
+        <!-- Header -->
+        <header>
+            <div class="heade">
+                <div class="head">
+                    <ul class="head__com">
+                        <li class="head__item1">
+                            <button onclick="bars()">
+                                <img src="./images/bars.svg" alt="">
+                            </button>
+                        </li>
+                        <li class="head__item1">
+                            <a href="#">
+                                <img src="./images/logo.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="head__com">
+                        <li class="head__item2">
+                            <input type="text" placeholder="Search">
+                            <button>
+                                <img src="./images/search.svg" alt="">
+                            </button>
+                        </li>
+                        <li class="head__item2">
+                            <button>
+                                <img src="./images/microphone.svg" alt="">
+                            </button>
+                        </li>
+                    </ul>
+                    <ul class="head__com">
+                        <li class="head__item3">
+                            <button>
+                                <img src="./images/optionsvideo.svg" alt="">
+                            </button>
+                        </li>
+                        <li class="head__item3">
+                            <button id="options">
+                                <img src="./images/optionsbars.svg" alt="">
+                            </button>
+                            <ul id="options-com">
+                                <li class="options-item"><a href="#"><img src="./images/tv.svg" alt=""><span>YouTube TV</span></a></li>
+                                <li class="options-item"><a href="#"><img src="./images/music.svg" alt=""><span>YouTube Music</span></a></li>
+                                <li class="options-item"><a href="#"><img src="./images/creatoracademy.svg" alt=""><span>YouTube Kids</span></a></li>
+                                <li class="options-item"><a href="#"><img src="./images/creatoracademy.svg" alt=""><span>Creators Academy</span></a></li>
+                                <li class="options-item"><a href="#"><img src="./images/creatoracademy.svg" alt=""><span>YouTube for Artists</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="head__item3">
+                            <button id="bell">
+                                <img src="./images/bell.svg" alt="">
+                            </button>
+                            <ul id="bell-com">
+                                <li class="bell-item1">
+                                    <p>Notifications</p><img src="./images/settings.svg" alt="">
+                                </li>
+                                <li class="bell-item2">
+                                    <div>
+                                        <img src="./images/bell.svg" alt="">
+                                        <h3> Your notifications live here</h3>
+                                        <p>
+                                            Subscribe to your favourite
+                                            channels to recieve notifications about their
+                                            latest videos
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="head__item3">
+                            <button id="user">
+                                <img src="./images/user.svg" alt="">
+                            </button>
+                            <ul id="user-com">
+                                <li id="my-accound">
+                                    <div><img src="./images/user.svg" alt=""></div>
+                                    <div>
+                                        <h2>Shruti Bhutda</h2>
+                                        <p>Manage Your Google Account</p>
+                                    </div>
+                                </li>
+                                <li class="user-item"><a href="#"><img src="./images/yourchannel.svg" alt=""><span>Your
+                                            channel</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/memberships.svg"
+                                            alt=""><span>Purchases and memberships</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/studio.svg" alt=""><span>YouTube
+                                            Studio</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/switchaccound.svg"
+                                            alt=""><span>Switch account</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/signout.svg" alt=""><span>Sign
+                                            out</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/appearance.svg"
+                                            alt=""><span>Appearance: Light</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/location.svg"
+                                            alt=""><span>Location: Uzbekistan</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/settings.svg"
+                                            alt=""><span>Settings</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/yourdata.svg" alt=""><span>Your
+                                            data in YouTube</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/help.svg"
+                                            alt=""><span>Help</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/sendfeedback.svg" alt=""><span>Send
+                                            feedback</span></a></li>
+                                <li class="user-item"><a href="#"><img src="./images/keyboard.svg" alt=""><span>Keyboard
+                                            shortcuts</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="m">
+                    <ul id="head-recom" class="head__recom">
+                        <li class="main__header-item">All</li>
+                        <li class="main__header-item">User Interface design</li>
+                        <li class="main__header-item">UI/UX</li>
+                        <li class="main__header-item">Logos</li>
+                        <li class="main__header-item">Computer science</li>
+                        <li class="main__header-item">Sales</li>
+                        <li class="main__header-item">Music</li>
+                        <li class="main__header-item">Live</li>
+                        <li class="main__header-item">Stock Market</li>
+                        <li class="main__header-item">Mixes</li>
+                        <li class="main__header-item">Lo-fi Music</li>
+                        <li class="main__header-item">Lo-fi Music</li>
+                        <li class="main__header-item">Lo-fi Music</li>
+                        <li class="main__header-item">Lo-fi Music</li>
+                        <li class="main__header-item">Animation</li>
+                        <li class="main__header-item">Football</li>
+                    </ul>
+                </div>
+
+            </div>
+        </header>
+
+        <!-- Aside -->
+        <aside>
+            <div>
+                <ul id="aside" class="aside">
+                    <li class="aside__items"><a href="#"><img src="./images/home.svg"><span
+                                class="aside-text">Home</span></a></li>
+                    <li class="aside__items"><a href="#"><img src="./images/Explore.svg"><span
+                                class="aside-text">Explore</span></a>
+                    </li>
+                    <li class="aside__items"><a href="#"><img src="./images/Subscriptions.svg"><span
+                                class="aside-text">Subscriptions</span></a></li>
+                    <li class="aside__items"><a href="#"><img src="./images/library.svg"><span
+                                class="aside-text">Library</span></a>
+                    </li>
+                    <li class="aside__items"><a href="#"><img src="./images/history.svg"><span
+                                class="aside-text">History</span></a>
+                    </li>
+                    <li class="aside__items"><a href="#"><img src="./images/yourvideos.svg"><span
+                                class="aside-text">Your
+                                Videos</span></a></li>
+                    <li class="aside__items"><a href="#"><img src="./images/watchlater.svg"><span
+                                class="aside-text">Watch
+                                Later</span></a></li>
+                    <li class="aside__items"><a href="#"><img src="./images/liked.svg"><span class="aside-text">Liked
+                                Videos</span></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main -->
+
+        <main id="Main">
+            <div id="basicMain" class="basic-main">
+                <ul class="basic-com">
+                    <li class="basic-item">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CmI8jHAMu4c"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="video-com-title">
+                            <div>
+                                <img src="https://yt3.ggpht.com/7CouiaBVb6V1bvOfZ9BConMQi0Y1A9F1k2CY53fAiCbdPoMdqB-yStvhkOSAeFFCOvCSWb_l=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div>
+                                <h1>#uzbtalant #shovshuv #million Kubik rubik terish 4 - dars</h1>
+                                <p><a href="#">Doston Turgunov</a></p>
+                                <div class="video-view">
+                                    <span>120M views</span> •
+                                    <span>1 Month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="basic-item">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/tD_rqPNh7ZA"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="video-com-title">
+                            <div>
+                                <img src="https://yt3.ggpht.com/ytc/AKedOLSjoXVPOCMHEL9QJyzH-GBujy7xxAVnOCy2FTPAYg=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div>
+                                <h1>TypeScript 2-dars, TypeScript Static Typing</h1>
+                                <p><a href="#">Javohir Berdiyev</a></p>
+                                <div class="video-view">
+                                    <span>120M views</span> •
+                                    <span>1 Month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="basic-item">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/aZsOsNrucqA"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="video-com-title">
+                            <div>
+                                <img src="https://yt3.ggpht.com/_x3aSrD70SUKKjrhE32uHU-UUuqsRpyRQTXMLkd8PY6ytmdPhftfLm3ujuwFjm99DqYDSPX1ZoQ=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div>
+                                <h1>Samsung Galaxy S22 Ultra + KONKURS | Texnoplov</h1>
+                                <p><a href="#">Texnoplov</a></p>
+                                <div class="video-view">
+                                    <span>120M views</span> •
+                                    <span>1 Month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="basic-item">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XXVHKbpknHg"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="video-com-title">
+                            <div>
+                                <img src="https://yt3.ggpht.com/_x3aSrD70SUKKjrhE32uHU-UUuqsRpyRQTXMLkd8PY6ytmdPhftfLm3ujuwFjm99DqYDSPX1ZoQ=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div>
+                                <h1>Internet qanday ishlaydi? Internet nima? | Texnoplov [RUS sub]</h1>
+                                <p><a href="#">Texnoplov</a></p>
+                                <div class="video-view">
+                                    <span>120M views</span> •
+                                    <span>1 Month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="basic-item">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/rZyxK5FPT2s"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="video-com-title">
+                            <div>
+                                <img src="https://yt3.ggpht.com/Ps5yNHpdDuJ4lIim2Ck19BydovyrVua6sxwsyjnrX5HJopXYpK3Ws8pElpF3IHkSkakhySfr=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div>
+                                <h1>IT sohasida eng professional bo'lmasangiz...</h1>
+                                <p><a href="#">Muhammadali Eshanqulov</a></p>
+                                <div class="video-view">
+                                    <span>120M views</span> •
+                                    <span>4 hours ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="basic-item">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/upFoXg7myu8"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="video-com-title">
+                            <div>
+                                <img src="https://yt3.ggpht.com/p0TWHbmIOrdxI9KuVpYs6kPYjt-BIs2EUnT5-ENaszVlzp-g1440wMhqnybA2_9ufqu4BzLp5e8=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div>
+                                <h1>Dubai 8K Video Ultra HD - United Arab Emirates (60 FPS) / Drone Video</h1>
+                                <p><a href="#">8K Earth</a></p>
+                                <div class="video-view">
+                                    <span>120M views</span> •
+                                    <span>1 Month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="basic-item">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/IPMyc7wRwSw"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="video-com-title">
+                            <div>
+                                <img src="https://yt3.ggpht.com/ytc/AKedOLT-TScSdSLGFJM1XA_4fpnGoElaPjV4-_SROg-uFA=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div>
+                                <h1>УКРАИНА РОССИЯ ГАЛАБАСИНИ РАСМАН ТАН ОЛДИ</h1>
+                                <p><a href="#">TURFA OLAM</a></p>
+                                <div class="video-view">
+                                    <span>120M views</span> •
+                                    <span>1 Month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="basic-item">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0pBvQ9mOvrs"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="video-com-title">
+                            <div>
+                                <img src="https://yt3.ggpht.com/ytc/AKedOLTGP4kKWJd7gOBmosScB83LPLs_F0Ki1bmTeOj1Vw=s68-c-k-c0x00ffffff-no-rj">
+                            </div>
+                            <div>
+                                <h1>Baron-2 Sog'inch (Официальный тизер)</h1>
+                                <p><a href="#">NavoFilms</a></p>
+                                <div class="video-view">
+                                    <span>120M views</span> •
+                                    <span>1 Month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="basic-item">
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/aXwD1NXEE74"
+                                frameborder="0"></iframe>
+                        </div>
+                        <div class="video-com-title">
+                            <div>
+                                <img src="https://yt3.ggpht.com/ytc/AKedOLTGP4kKWJd7gOBmosScB83LPLs_F0Ki1bmTeOj1Vw=s68-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                            </div>
+                            <div>
+                                <h1>React Intro | Qism 1</h1>
+                                <p><a href="#">Zokir Rakhimov</a></p>
+                                <div class="video-view">
+                                    <span>120M views</span> •
+                                    <span>1 Month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
